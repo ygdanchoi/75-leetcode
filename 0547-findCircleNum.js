@@ -33,7 +33,13 @@ function findCircleNum(M) {
 }
 
 function findCircleNum(M) {
-    const ds = new DisjointSets(getKeys(M.length));
+    const keys = new Array(M.length);
+    
+    for (let i = 0; i < M.length; i++) {
+        keys[i] = i;
+    }
+    
+    const ds = new DisjointSets(keys);
     
     for (let i = 0; i < M.length; i++) {
         for (let j = i + 1; j < M.length; j++) {
@@ -44,16 +50,6 @@ function findCircleNum(M) {
     }
     
     return ds.numSets();
-}
-
-function getKeys(n) {
-    const keys = new Array(n);
-    
-    for (let i = 0; i < n; i++) {
-        keys[i] = i;
-    }
-    
-    return keys;
 }
 
 class DisjointSets {
