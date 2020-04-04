@@ -1,5 +1,3 @@
-// https://leetcode.com/problems/find-median-from-data-stream/
-
 class MedianFinder {
     constructor() {
         this.lo = new Heap((a, b) => b - a); // max heap
@@ -51,9 +49,8 @@ class Heap {
     pop() {
         // omit error handling
         
-        const num = this.data[0];
         this.swap(0, this.size() - 1);
-        this.data.pop();
+        const num = this.data.pop();
         this.bubbleDown();
         return num;
     }
