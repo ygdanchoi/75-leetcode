@@ -51,11 +51,11 @@ class Heap {
     pop() {
         // omit error handling
         
-        const max = this.data[0];
+        const num = this.data[0];
         this.swap(0, this.size() - 1);
         this.data.pop();
         this.bubbleDown();
-        return max;
+        return num;
     }
     
     peek() {
