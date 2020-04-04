@@ -38,7 +38,7 @@
 | 226  | [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) |
 | 124  | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
-| --   | [~Serialize and Deserialize Binary Tree~](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |
+| 297  | [~Serialize and Deserialize Binary Tree~](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |
 | 572  | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |
 | 98   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) |
