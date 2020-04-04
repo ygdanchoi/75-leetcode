@@ -16,10 +16,10 @@ function coinChange(coins, amount) {
         
         let best = Infinity;
         
-        coins.forEach(coin => {
+        for (const coin of coins) {
             const curr = 1 + step(bal - coin);
             best = Math.min(best, curr);
-        });
+        }
         
         memo[bal] = best;
         return best;

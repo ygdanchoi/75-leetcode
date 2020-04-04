@@ -4,14 +4,14 @@ function maxSubArray(nums) {
     let bestSum = -Infinity;
     let currSum = 0;
     
-    nums.forEach(num => {
+    for (const num of nums) {
         currSum += num;
         bestSum = Math.max(bestSum, currSum);
         
         if (currSum < 0) {
             currSum = 0;
         }
-    });
+    }
     
     return bestSum;
 }

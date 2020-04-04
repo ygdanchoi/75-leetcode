@@ -14,9 +14,9 @@ function combinationSum4(nums, target) {
         
         let combos = 0;
         
-        nums.forEach(num => {
+        for (const num of nums) {
             combos += step(curr + num);
-        });
+        }
         
         memo[curr] = combos;
         return combos;
