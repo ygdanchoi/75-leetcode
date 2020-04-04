@@ -1,8 +1,5 @@
-/**
- * @param {number[]} nums
- * @param {number} k
- * @return {number[]}
- */
+// https://leetcode.com/problems/top-k-frequent-elements/
+
 function topKFrequent(nums, k) {
     const result = [];
     const counts = new Map();

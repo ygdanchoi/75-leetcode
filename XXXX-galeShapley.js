@@ -1,3 +1,5 @@
+// https://rosettacode.org/wiki/Stable_marriage_problem
+
 function galeShapley(malePrefLists, femalePrefLists) {
     const wives = {};
     const husbands = {};
