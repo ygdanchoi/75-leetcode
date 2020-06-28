@@ -134,3 +134,4 @@
 | 701  | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) |
 | 787  | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) |
 | 887  | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) |
+| 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) |
