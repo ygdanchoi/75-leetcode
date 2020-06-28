@@ -131,5 +131,6 @@
 | XXXX | [Stable Marriage](https://rosettacode.org/wiki/Stable_marriage_problem) |
 | 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) |
 | 547  | [Friend Circles](https://leetcode.com/problems/friend-circles/) |
+| 701  | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) |
 | 787  | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) |
 | 887  | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) |
