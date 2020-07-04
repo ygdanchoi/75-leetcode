@@ -131,6 +131,9 @@
 | XXXX | [Stable Marriage](https://rosettacode.org/wiki/Stable_marriage_problem) |
 | 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) |
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |
+| 239  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) |
+| 315  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |
+| 329  | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) |
 | 547  | [Friend Circles](https://leetcode.com/problems/friend-circles/) |
 | 701  | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) |
 | 787  | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) |
