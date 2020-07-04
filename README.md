@@ -131,6 +131,7 @@
 | XXXX | [Stable Marriage](https://rosettacode.org/wiki/Stable_marriage_problem) |
 | 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) |
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |
+| 84   | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
 | 239  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) |
 | 315  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |
 | 329  | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) |
