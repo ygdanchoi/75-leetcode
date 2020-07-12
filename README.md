@@ -132,6 +132,7 @@
 | 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) |
 | 41   | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) |
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |
+| 44   | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) |
 | 84   | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
 | 140  | [Word Break II](https://leetcode.com/problems/word-break-ii/) |
 | 218  | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) |
