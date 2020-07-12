@@ -136,6 +136,7 @@
 | 140  | [Word Break II](https://leetcode.com/problems/word-break-ii/) |
 | 218  | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) |
 | 239  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) |
+| 301  | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) |
 | 315  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |
 | 329  | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) |
 | 547  | [Friend Circles](https://leetcode.com/problems/friend-circles/) |
