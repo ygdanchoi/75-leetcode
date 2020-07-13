@@ -122,7 +122,7 @@
 | 191  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) |
 | 338  | [Counting Bits](https://leetcode.com/problems/counting-bits/) |
 | 268  | [Missing Number](https://leetcode.com/problems/missing-number/) |
-| 190  | [~Reverse Bits~](https://leetcode.com/problems/reverse-bits/) |
+| 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) |
 
 ## Custom (Dan)
 
