@@ -1,41 +1,23 @@
 // https://leetcode.com/problems/longest-consecutive-sequence/
 
 function longestConsecutive(nums) {
-    const graph = {};
-    const seen = {};
+    nums = new Set(nums);
+    const seen = new Set();
+    let maxLength = 0;
     
-    let best = 0;
-    
-    for (const num of nums) {
-        if (graph[num] === undefined) {
-            graph[num] = [];
-        }
-        graph[num].push(num + 1);
-        
-        if (graph[num + 1] === undefined) {
-            graph[num + 1] = [];
-        }
-        graph[num + 1].push(num);
-    }
-    
-    for (const num of nums) {
-        best = Math.max(best, step(num) - 1);
+    for (const num of [...nums]) {
+        maxLength = Math.max(maxLength, step(num));
     }
     
     function step(curr) {
-        if (seen[curr]) {
+        if (!nums.has(curr)) {
             return 0;
-        }
-        
-        seen[curr] = true;
-        let result = 1;
-        
-        for (const child of graph[curr]) {
-            result += step(child);
-        }
-        
-        return result;
+        } else if (seen.has(curr)) {
+            return 0;
+        } 
+        seen.add(curr);
+        return step(curr - 1) + 1 + step(curr + 1);
     }
     
-    return best;
+    return maxLength;
 }
