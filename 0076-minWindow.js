@@ -1,64 +1,57 @@
-// https://leetcode.com/problems/minimum-window-substring/
-
 function minWindow(s, t) {
-    const targets = createTargets();
-    const counts = createCounts();
+    let bestCand = '';
 
-    let i = advance(-1);
-    let j = -1;
-    let best = '';
-            
-    while (j < s.length) {
-        if (containsAllCharacters()) {
-            const curr = s.substring(i, j + 1);
-            if (best === '' || curr.length < best.length) {
-                best = curr;
-            }
-            
-            counts[s[i]]--;    
-            i = advance(i);
+    const candCounts = {};
+    const tCounts = {};
+    let l = 0;
+    let r = 0;
+    
+    for (const char of t.split('')) {
+        incr(tCounts, char);
+    }
+    
+    while (l < s.length && r < s.length) {
+        incr(candCounts, s[r]);
+        
+        if (shouldExpandCand()) {
+            r++;
         } else {
-            j = advance(j);
-            counts[s[j]]++;
-        }
-    }
-    
-    function createTargets() {
-        const targets = {};
-        
-        for (const char of t) {
-            if (targets[char] === undefined) {
-                targets[char] = 0;
+            const cand = s.substring(l, r + 1);
+            if (bestCand === '' || cand.length < bestCand.length) {
+                bestCand = cand;
             }
-            targets[char]++;
+            
+            decr(candCounts, s[l]);
+            l++;
+            
+            while (!tCounts[s[l]] && l < r) {
+                decr(candCounts, s[l]);
+                l++;
+            }
+            
+            decr(candCounts, s[r]);
         }
-        
-        return targets;
     }
     
-    function createCounts() {
-        const counts = {};
-        
-        for (const char of t) {
+    function incr(counts, char) {
+        if (counts[char] === undefined) {
             counts[char] = 0;
         }
-        
-        return counts;
+        counts[char]++;
     }
     
-    function containsAllCharacters() {
-        return Object.keys(counts).every(char => {
-            return counts[char] >= targets[char];
+    function decr(counts, char) {
+        counts[char]--;
+        if (counts[char] === 0) {
+            delete counts[char];
+        }
+    }
+    
+    function shouldExpandCand() {
+        return Object.keys(tCounts).some(key => {
+            return !candCounts[key] || candCounts[key] < tCounts[key];
         });
     }
     
-    function advance(idx) {
-        idx++;
-        while (idx < s.length && counts[s[idx]] === undefined) {
-            idx++;
-        }
-        return idx;
-    }
-    
-    return best;
+    return bestCand;
 }
