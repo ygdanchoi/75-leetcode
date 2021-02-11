@@ -1,43 +1,26 @@
 // https://leetcode.com/problems/merge-intervals/
 
 function merge(intervals) {
-    let i = 0;
+    intervals.sort((a, b) => a[0] - b[0]);
+    const results = [];
     
-    while (i < intervals.length - 1) {
-        let j = i + 1;
-        
-        while (j < intervals.length) {
-            const a = intervals[i];
-            const b = intervals[j];
-
-            if (isOverlapping(a, b)) {
-                mergeAt(i, j);
-                j = i + 1;
-            } else {
-                j++;
-            }
+    for (const interval of intervals) {
+        if (results.length === 0 || !isOverlapping(results[results.length - 1], interval)) {
+            results.push(interval);
+        } else {
+            results[results.length - 1] = [
+                Math.min(results[results.length - 1][0], interval[0]),
+                Math.max(results[results.length - 1][1], interval[1])
+            ];
         }
-        
-        i++;
     }
     
-    function isOverlapping(a, b) {
-        return a[0] <= b[0] && b[0] <= a[1]
-            || a[0] <= b[1] && b[1] <= a[1]
-            || b[0] <= a[0] && a[0] <= b[1]
-            || b[0] <= a[1] && a[1] <= b[1];
-    }
-    
-    function mergeAt(i, j) {
-        const a = intervals[i];
-        const b = intervals[j]
+    return results;
+};
 
-        const min = Math.min(a[0], b[0]);
-        const max = Math.max(a[1], b[1]);
-
-        intervals[i] = [min, max];
-        intervals.splice(j, 1);
-    }
-    
-    return intervals;
+function isOverlapping(a, b) {
+   return a[0] <= b[0] && b[0] <= a[1]
+       || a[0] <= b[1] && b[1] <= a[1]
+       || b[0] <= a[0] && a[0] <= b[1]
+       || b[0] <= a[1] && a[1] <= b[1];
 }
