@@ -124,6 +124,61 @@
 | 268  | [Missing Number](https://leetcode.com/problems/missing-number/) |
 | 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) |
 
+## Premium
+
+| Number | Problem |
+|---|---|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) |
+| 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) |
+| 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) |
+| 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) |
+| 308 | [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) |
+| 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |
+| 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) |
+| 346 | [Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) |
+| 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) |
+| 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) |
+| 394 | [Decode String](https://leetcode.com/problems/decode-string/) |
+| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) |
+| 418 | [Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/) |
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) |
+| 465 | [Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) |
+| 471 | [Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/) |
+| 489 | [Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/) |
+| 528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) |
+| 552 | [Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/) |
+| 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) |
+| 690 | [Employee Importance](https://leetcode.com/problems/employee-importance/) |
+| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |
+| 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) |
+| 715 | [Range Module](https://leetcode.com/problems/range-module/) |
+| 727 | [Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) |
+| 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) |
+| 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) |
+| 792 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) |
+| 809 | [Expressive Words](https://leetcode.com/problems/expressive-words/) |
+| 843 | [Guess the Word](https://leetcode.com/problems/guess-the-word/) |
+| 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) |
+| 900 | [RLE Iterator](https://leetcode.com/problems/rle-iterator/) |
+| 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) |
+| 995 | [Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) |
+| 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) |
+| 1088 | [Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) |
+| 1110 | [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) |
+| 1138 | [Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/) |
+| 1146 | [Snapshot Array](https://leetcode.com/problems/snapshot-array/) |
+| 1153 | [String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/) |
+| 1219 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) |
+| 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) |
+| 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) |
+| 1376 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) |
+| 1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) |
+| 1438 | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |
+| 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) |
+| 1499 | [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/) |
+| 1610 | [Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/) |
+| 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) |
+
 ## Custom (Dan)
 
 | Number | Problem |
