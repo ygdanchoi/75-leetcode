@@ -196,6 +196,7 @@
 | 301  | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) |
 | 315  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |
 | 329  | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) |
+| 450  | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) |
 | 547  | [Friend Circles](https://leetcode.com/problems/friend-circles/) |
 | 701  | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) |
 | 787  | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) |
