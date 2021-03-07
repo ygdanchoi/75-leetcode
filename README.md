@@ -202,3 +202,4 @@
 | 787  | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) |
 | 887  | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) |
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) |
+| 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) |
