@@ -199,6 +199,7 @@
 | 450  | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) |
 | 547  | [Friend Circles](https://leetcode.com/problems/friend-circles/) |
 | 701  | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) |
+| 773  | [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/) |
 | 787  | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) |
 | 887  | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) |
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) |
