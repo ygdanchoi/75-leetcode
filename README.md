@@ -138,6 +138,7 @@
 | 84   | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
 | 140  | [Word Break II](https://leetcode.com/problems/word-break-ii/) |
 | 218  | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) |
+| 221  | [Maximal Square](https://leetcode.com/problems/maximal-square/) |
 | 239  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) |
 | 301  | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) |
 | 315  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |
